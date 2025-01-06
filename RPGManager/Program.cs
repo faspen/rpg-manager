@@ -16,6 +16,13 @@ builder.Services.AddControllers()
     });
 builder.Services.AddAutoMapper(typeof(RPGManagerAutoMapper));
 builder.Services.AddScoped<IArchetypeRepository, ArchetypeRepository>();
+builder.Services.AddScoped<IArmorRepository, ArmorRepository>();
+builder.Services.AddScoped<ICharacterRepository, CharacterRepository>();
+builder.Services.AddScoped<ISkillRepository, SkillRepository>();
+builder.Services.AddScoped<ISpecializationRepository, SpecializationRepository>();
+builder.Services.AddScoped<ISpecialSkillRepository, SpecialSkillRepository>();
+builder.Services.AddScoped<IWeaponRepository, WeaponRepository>();
+builder.Services.AddScoped<IWeaponTypeRepository, WeaponTypeRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
