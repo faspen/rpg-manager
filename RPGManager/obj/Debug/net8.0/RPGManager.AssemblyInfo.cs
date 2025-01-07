@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPGManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86ad4c12b3199fcc02637ee3b4486e143e2f0946")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e09a721aa97fed09602a0dbede65262aedd5ce1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPGManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPGManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

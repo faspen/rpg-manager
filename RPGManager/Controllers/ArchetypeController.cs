@@ -24,12 +24,12 @@ namespace RPGManager.Controllers
         [ProducesResponseType(200, Type = typeof(List<ArchetypeDto>))]
         public IActionResult GetArchetypes()
         {
-            var characters = _repository.GetArchetypes();
+            var archetypes = _repository.GetArchetypes();
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var mapped = _mapper.Map<List<ArchetypeDto>>(characters);
+            var mapped = _mapper.Map<List<ArchetypeDto>>(archetypes);
             return Ok(mapped);
         }
 
