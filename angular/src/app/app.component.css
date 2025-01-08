@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+  }
+  
+  .sidebar {
+    border-right: 1px solid #ddd;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+    background-color: #d1d1e0;
+  }
+  
